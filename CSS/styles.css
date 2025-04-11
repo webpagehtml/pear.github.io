@@ -1,0 +1,175 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+body {
+    font-family: Times New Roman;
+    font-size: 17px;
+    background-image: url('../IMG/back.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    color: black;
+    padding: 55px;
+    text-align: center;
+    background-image: url('../IMG/header.png');
+    background-size: cover;
+    color:white;
+    box-shadow:5px 10px 20px #525252;
+}
+/*change color and makes nav bar sticks to top*/
+nav {
+    position:sticky;
+    top: 0;
+    padding:10px 50px;
+}
+/* Remove the bullets, margins and padding */
+nav ul {
+    border-radius:10px;
+    background-color:#525252;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    text-align:center;
+    height:40px;
+}
+nav li {
+    display:inline;
+}
+/* style the a within the li and set the background color */
+nav li a {
+    padding:30px;
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+/* Change the link color on hover */
+nav li a:hover {
+    background-color:#3b3939;
+    color:#fff;
+}
+h1 {
+    text-align:center;
+    font-size: 30px;
+    padding:10px;
+}
+h2 {
+    text-align:center;
+    font-size: 30px;
+    padding:10px;
+    background-color:white;
+}
+main{
+    display:flex;
+}
+section{
+    float:left;
+    width:60%;
+}
+aside{
+    float:right;
+    width:40%;
+    background-color:#999896;
+}
+article {
+    background-color:white;
+}
+/*change background color*/
+footer{
+    background-color:#525252;
+    color:white;
+    padding:18px 6px;
+    font-size:17px;
+}
+caption {
+    font-size: 20px;
+    padding:20px;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse:collapse;
+}
+th {
+    background-color:#525252;
+    color:white;
+}
+td{
+    background-color:#999896;
+}
+form {
+    margin:0px 50px;
+    font-size:1.25rem;
+    padding:100px 0px 40px 0px;
+    color:white;
+    text-align:center;
+}
+legend {
+    font-size:1.25rem;
+    text-align:center;
+}
+legend, lable {
+    font-weight:bold;
+}
+fieldset{
+    border:2px dashed #525252;
+}
+input[type], select{
+    height:30px;
+    font-size:1.15rem;
+    border:2px solid #525252;
+}
+textarea {
+    font-size:1.15rem;
+    border:2px solid #525252;
+}
+input[type=text], input[type=address], input[type=email], input[type=password], input[type=address] {
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+input[type=reset], input[type=submit]{
+    font-size:1.15rem;
+    font-weight:bold;
+    border:none;
+    color:white;
+    border-radius:50px;
+}
+input[type=reset] {
+    background-color:#f00;
+    width:100px;
+    border-radius:50px;
+}
+input[type=submit] {
+    background-color:#008000;
+    width:150px;
+}
+
+div.img-grid {text-align:center; background-color:white;}
+div.img-des{padding:5px; text-align:center;}
+.item-grid{width:100%; margin:0 auto; display:grid; grid-template-columns:auto auto auto auto; grid-gap:10px; padding-top:20px;}
+.img-siz{height:150px; width:150px;}
+
+#buttons{
+    text-align:center;
+}
+#top {
+    background-color:white;
+    width:100%;
+}
+#list{
+    text-align:center;
+}
+#tech{
+    border:2px solid white;
+    color:white;
+    background-color:#999896;
+}
+.pear{
+    width:100%;
+    text-align:center;
+}
+.textbox{
+    padding:10px 100px 10px 100px;
+}
