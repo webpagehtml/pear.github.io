@@ -4,7 +4,7 @@ padding: 0;
 box-sizing:border-box;
 }
 body {
-    font-family: Times New Roman;
+    font-family: TimesNewRoman;
     font-size: 17px;
     background-image: url('../IMG/back.png');
     background-size: cover;
